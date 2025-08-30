@@ -13,3 +13,32 @@ Unlike the original fixed-screen implementation, this version dynamically positi
 [![Contributors](https://img.shields.io/github/contributors/<your-username>/godot_dynamic_dialogue.svg)](https://github.com/<your-username>/godot_dynamic_dialogue/graphs/contributors)  
 
 </div>
+
+---
+
+## Table of Contents
+
+1. [Features](#features)  
+2. [Installation](#installation)  
+3. [Usage](#usage)  
+4. [Customization](#customization)  
+5. [Demo](#demo)  
+
+---
+
+## Features
+
+- Dialogue boxes that follow a target (e.g., player character).  
+- Supports multiline dialogue with typewriter effect.  
+- Works with free-roam or top-down games.  
+- Easy to extend for branching dialogue or NPC interactions.  
+
+---
+
+## Installation
+
+Clone the repository into your Godot project:
+
+```bash
+cd ~/GodotProjects/MyGame/addons
+git clone https://github.com/<your-username>/godot_dynamic_dialogue.git
