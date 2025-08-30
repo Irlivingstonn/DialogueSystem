@@ -42,3 +42,34 @@ Clone the repository into your Godot project:
 ```bash
 cd ~/GodotProjects/MyGame/addons
 git clone https://github.com/<your-username>/godot_dynamic_dialogue.git
+```
+
+In Godot, enable the addon if placed in addons/. Otherwise, copy the scripts and scenes into your project.
+
+---
+
+## Usage
+
+Attach the provided DialogueManager.gd script and scene to your game. Example:
+```bash
+var dialogue_manager = preload("res://addons/godot_dynamic_dialogue/DialogueManager.tscn").instantiate()
+add_child(dialogue_manager)
+
+dialogue_manager.show_dialogue("Hello, world!", $Player)
+```
+- The second argument is the node the dialogue should follow (e.g., $Player).
+- If omitted, dialogue defaults to screen-fixed.
+
+---
+
+## Customization
+You can modify:
+
+- Fonts & Themes: Edit the Label/RichTextLabel style in the scene.
+- Box Positioning: Adjust offsets relative to the target.
+- Typing Speed: Configurable variable in the script.
+- Branching Logic: Extend with choice prompts.
+
+---
+
+## Demo
