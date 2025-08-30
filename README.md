@@ -26,7 +26,7 @@ Unlike the original fixed-screen implementation, this version dynamically positi
 - Dialogue boxes that follow a target (e.g., player character).  
 - Supports multiline dialogue with typewriter effect.  
 - Works with free-roam or top-down games.  
-- Easy to extend for branching dialogue or NPC interactions.  
+- Easy to extend for branching dialogue or NPC interactions.
 
 ---
 
@@ -35,11 +35,9 @@ Unlike the original fixed-screen implementation, this version dynamically positi
 Clone the repository into your Godot project:
 
 ```bash
-cd ~/GodotProjects/MyGame/addons
-git clone https://github.com/<your-username>/godot_dynamic_dialogue.git
+cd ~/GodotProjects/MyGame/scripts
+git clone https://github.com/<your-username>/DialogueSystem.git
 ```
-
-In Godot, enable the addon if placed in addons/. Otherwise, copy the scripts and scenes into your project.
 
 ---
 
